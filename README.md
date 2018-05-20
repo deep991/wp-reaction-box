@@ -39,7 +39,9 @@ Goto `Settings > WP Reactions Box > Stats Tab` to see recent ratings and most ra
 ## Frequently asked questions
 
 **How can I call WP Reactions Box into template**
+
 Place `hkp_reactions_box()` PHP function in your templates
 
 **Is there any shortcode for Reactions Box**
+
 you can use `[hkp_reactions_box]` shortcode in your theme to show the Reactions Box where you want.
