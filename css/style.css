@@ -1,0 +1,237 @@
+#hkp-feelbox-widget {
+    clear: both;
+    line-height: 1em;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+#hkp-feelbox-widget #hkp-feelbox-social {
+    height: 100%;
+    position: absolute;
+    text-align: center;    
+    display: none;
+    width: 100%;
+    z-index: 20;
+    background: #fff;
+    opacity: .95;
+}
+
+#hkp-feelbox-widget #hkp-feelbox-social #feelbox-msg {
+    font-size: 1.4em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 1px 0 20px;
+}
+
+#hkp-feelbox-widget a {
+    color: #333;
+    text-decoration: none !important;
+}
+
+#hkp-feelbox-twitter-button {
+    background-image: url("../images/share-twitter.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent !important;
+    font-size: 2em;
+    margin: 4px;
+    text-decoration: none !important;
+}
+#hkp-feelbox-facebook-button {
+    background-image: url("../images/share-facebook.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent !important;
+    font-size: 2em;
+    margin: 4px;
+    text-decoration: none !important;
+}
+
+#hkp-feelbox-googleplus-button {
+    background-image: url("../images/share-googleplus.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent !important;
+    font-size: 2em;
+    margin: 4px;
+    text-decoration: none !important;
+}
+
+div#hkp-feelbox-s {
+    
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 1px 0 10px;
+}
+
+#hkp-feelbox-widget #bgLayer {
+    background-color: #fff;
+    height: 100%;
+    opacity: 0.85;
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    z-index: 10;
+}
+
+#hkp-feelbox-widget #feelbox-header {
+    background-color: #fff;
+    border-radius: 0 !important;
+    clear: both;
+    color: #333;
+    min-height: 30px;
+}
+
+#hkp-feelbox-widget #feelbox-header #header-msg {
+    float: right;
+}
+#hkp-feelbox-widget #feelbox-header #header-msg span {
+    background: transparent url("../images/heart.png") no-repeat scroll 0 0;
+    background-size: 100% 100%;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    min-height: 25px;
+    text-indent: -99999px;
+    width: 35px;
+    
+}
+
+#hkp-feelbox-widget #bd {
+    background-color: #fff;
+    clear: both;
+    margin-top: 0;
+    position: relative;
+}
+
+#hkp-feelbox-widget #bd #loading {
+    background: #fff url("../images/loading.gif") no-repeat scroll center center;
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#wp-reactions {
+    
+    margin: 8px auto 16px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.wp-emotion-icon {
+    display: inline-block;
+    margin-right: 0;
+    text-align: center;
+}
+.feelbox-emotion-pic {
+    
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    height: 60px;
+    width: 60px;   
+}
+.feelbox-emotion-pic.classic {
+    background-image: url("../images/themes/classic/emoticon.png"); 
+}
+.feelbox-emotion-pic.emoji {
+    background-image: url("../images/themes/emoji/emoticon.png"); 
+}
+.feelbox-emotion-pic.dark {
+    background-image: url("../images/themes/dark/emoticon.png"); 
+}
+.feelbox-emotion-counter {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    margin: 5px auto;
+    padding: 2px 0;
+    text-align: center;
+    width: 40px;
+    color: #333;
+}
+#wp-reactions .bummer {
+    background-position: 0 -305px;    
+}
+#wp-reactions .good {
+    background-position: 0 0;
+}
+#wp-reactions .sad {
+    background-position: 0 -488px;
+}
+#wp-reactions .lol {
+    background-position: 0 -183px;
+}
+#wp-reactions .scary {
+    background-position: 0 -122px;
+}
+#wp-reactions .shocked {
+    background-position: 0 -549px;
+}
+#wp-reactions .boring {
+    background-position: 0 -61px;
+}
+#wp-reactions .sweet {
+    background-position: 0 -427px;
+}
+#wp-reactions .angry {
+    background-position: 0 -244px;
+}
+#wp-reactions .nerdy {
+    background-position: 0 -366px;
+}
+
+/** Spark or vote bar color **/
+#sparkbardiv {
+    margin: 0 auto 15px;
+    width: 100%;
+}
+#sparkbardiv .spark {
+    height: 5px;
+    float: left;
+    margin: 0;
+    padding: 0px;
+}
+#sparkbardiv .bummer {
+    background-color: #ff8100;    
+}
+#sparkbardiv .good {
+    background-color: #8cc63e;
+}
+#sparkbardiv .sad {
+    background-color: #c9c9d4;
+}
+#sparkbardiv .lol {
+    background-color: #f4b619;
+}
+#sparkbardiv .scary {
+    background-color: #efefef;
+}
+#sparkbardiv .shocked {
+    background-color: #b59cff;
+}
+#sparkbardiv .boring {
+    background-color: #00daa4;
+}
+#sparkbardiv .sweet {
+    background-color: #f88fc6;
+}
+#sparkbardiv .angry {
+    background-color: #fd4444;
+}
+#sparkbardiv .nerdy {
+    background-color: #00b7f3;
+}
